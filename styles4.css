@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+.resume img{
+    width: 100vw;
+    height: 55vw;
+    position: relative;
+}
+
+.textoencima {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: min-content;
+    gap: 1em;
+    font-weight: bolder;
+}
+.textoencima{
+    border: solid lightblue;
+    border-radius: 6px;
+    padding: 0.5em;
+    color: white;
+    background-color: rgb(63, 84, 169);
+}
+.textoencima div:not(:last-child){
+    border: solid lightblue;
+    border-radius: 6px;
+    margin: 1em;
+    padding: 0.5em;
+    color: white;
+    background-color:  rgb(43, 61, 137);
+}
+.boton{
+    display: flex;
+    justify-content: end;
+    margin: 2.5em 2.65em 1em 1em; 
+}
+.boton button{
+    text-align: center;
+    border-radius: 6px;
+    border: solid white;
+    color: white;
+    background-color: #198754 ;
+    width: 150%;
+    height: 150%;
+}

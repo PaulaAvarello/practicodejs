@@ -27,7 +27,7 @@ function calcTotal() {
     document.getElementById('total').innerText = total;
 }
 
-//creo una funcion para borar todo lo del formulario
+//creo una funcion para borrar todo lo del formulario
 window.onload = function() {
 
     //creo la variable botonBorrar a partir del id borrar(del boton borrar)
@@ -65,9 +65,8 @@ window.onload = function() {
 
 }
 
-document.getElementById('resumen').addEventListener('click', function() {
+    document.getElementById('resumen').addEventListener('click', function() {
     localStorage.setItem('resumen', document.getElementById('total').innerText);
     window.location.href = 'resume.html';
 });
 
- 

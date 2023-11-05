@@ -205,8 +205,8 @@ nav{
 }
 
 .oradores img {
-    width: 20em;
-    height: 20em;
+    width: 18em;
+    height: 18em;
     border-radius: 6px;
 }
 
@@ -410,6 +410,14 @@ p {
   gap:0.5rem;
   margin: 5em 0 0 2rem;
 }
+@media (max-width:678px){
+.tickets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
 .estudiantes,.trainee,.junior{
     border: solid;
     width: min-content;
@@ -432,8 +440,11 @@ p {
     margin: 1em;
 }
 #email{
-    margin: 0 0 1em 1em;
-    width: 96.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 1em 1em 1em;
+    width: 96%;
 }
 .desc{
     margin: 0.4em 1em 1em 1em;
